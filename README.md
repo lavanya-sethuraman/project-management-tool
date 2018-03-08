@@ -1,6 +1,6 @@
-# Pro5 Project Management Tool
+# Project Management Tool
 
-![dock](Pro5-Project.png) 
+![dock](Project.png) 
 
 ### About the App
 A Project Management Tool.
