@@ -23,7 +23,7 @@ describe('Auth endpoints', function() {
   after(function() {
     return closeServer();
   });
-
+  
   beforeEach(function() {
     return User.hashPassword(password).then(password =>
       User.create({
