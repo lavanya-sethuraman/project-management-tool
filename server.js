@@ -39,7 +39,6 @@ app.get('*', (req, res, next) => {
 });
 
 let server;
-
 function runServer(databaseurl = DATABASE_URL) {
   return new Promise((resolve, reject) => {
     mongoose.connect(databaseurl, err => {
